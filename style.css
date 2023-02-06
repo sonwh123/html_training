@@ -1,0 +1,39 @@
+ a {
+   color : black;
+   text-decoration : none;
+ }
+ body {
+   margin : 0;
+ }
+ h1 {
+   font-size : 45px;
+   text-align : center;
+   border-bottom : solid black 5px;
+   margin : 0;
+   padding : 20px 0 20px 70px;
+ }
+ h2 {
+   font-size : 100%;
+ }
+ ol {
+   border-right : solid black 3px;
+   margin : 0;
+   padding : 0 15px 0 35px;
+ }
+ .blue {
+   color : blue;
+ }
+ #grid {
+   display : grid;
+   grid-template-columns : 185px 1fr;
+ }
+ #grid h2 {
+   width : 135px;
+   margin : 10px 0 0;
+ }
+ #grid ul {
+   padding : 0 20px 0;
+ }
+ #grid li {
+   padding-top : 5px;
+ }
