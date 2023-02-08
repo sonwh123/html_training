@@ -1,32 +1,37 @@
-<!doctype html>
+ï»¿<!doctype html>
 <html>
-<head>
-<title>À¥»çÀÌÆ® ¸¸µé±â ½Ç½À</title>
-<!--meta charset="utf-8"-->
-</head>
-<body>
-<a href="../index.html"><h1>±º»ıÈ° <span style="font-size:15px; color:#0000ff;">ver.»çÁö¹æ</span></h1></a>
-<ol>
-  <a href="../1.html"><h2><li>Easy Rust <span style="font-size:10px; color:#0000ff;">Korean</span></li></h2></a>
-<ul>
-  <a href="./22.12.4.html"><li>22.12.4</li></a>
-  <a href="./22.12.5.html"><li>22.12.5</li></a>
-  <a href="./22.12.7.html"><li>22.12.7</li></a>
-  <a href="./22.12.8.html"><li>22.12.8</li></a>
-  <a href="./22.12.11.html"><li>22.12.11</li></a>
-<ul>
-  <li>Reference and shadowing			- <span style="color:#0000ff;"><i>let country = "´ëÇÑ¹Î±¹";</i></span> | <span style="color:#0000ff;"><i>let country_ref = &country;</i></span> ¢Ñ¾È »ç¶óÁü , <span style="color:#0000ff;"><i>let country = 8;</i></span> ¢Ñ»ç¶óÁü</li> 
-  <li>References in functions			- <span style="color:#0000ff;"><i>fn print_country(country_name:</i></span><u style="color:#ff0000;"><span style="color:#0000ff;"><i>&String</i></span></u><span style="color:#0000ff;"><i>)</i></span> (<i>country_name:String</i> <span style="color:#ff0000;">(X)</span>)</li>
-  <li>Mutable references and mut in fuctions	- <span style="color:#cfcfcf;">³»¿ë¾øÀ½</span></li>
-  <li>Copy and clone				- i32´Â <strong>copy</strong>°¡´É!!<span style="color:#0000ff;">(°£´ÜÇÏ±â ¶§¹®)</span> | <strong>.clone()</strong><span style="color:#0000ff;">¢Ñ¸ÕÀú ¾²°í ³ªÁß¿¡ ¹Ù²Ş</span></li>
-  <li>Uninitialized variables and for loops	- Á¤ÀÇµÇÁö ¾ÊÀº º¯¼ö<span style="color:#ff0000;">¢ÑrustÀûÀÌÁö ¾ÊÀ½!!</span></li>
-</ul>
-  <a href="./»çÁö¹æ_Á¡°Ë.html"><strong>»çÁö¹æ Á¡°Ë</strong></a>
-  <a href="./22.12.25.html"><li>22.12.25</li></a>
-  <a href="./22.12.26.html"><li>22.12.26</li></a>
-</ul>
-  <a href="../2.html"><h2><li>Áø·Î Å½»ö</li></h2></a>
-  <a href="../3.html"><h2><li>»ıÈ°ÄÚµù ½ÃÀÛ</li></h2></a>
-</ol>
-</body>
+  <head>
+    <title>ì›¹ì‚¬ì´íŠ¸ ë§Œë“¤ê¸° ì‹¤ìŠµ</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../style.css">
+  </head>
+  <body>
+    <a href="../index.html"><h1>êµ°ìƒí™œ <span style="font-size:15px; color:#0000ff;">IN.ì‚¬ì§€ë°©</span></h1></a>
+    <div id="grid">
+      <ol>
+        <a href="../index.html"><h2><li>Easy Rust <span style="font-size:10px; color:#0000ff;">Korean</span></li></h2></a>
+        <ul>
+          <a href="./22.12.4.html"><li>22.12.4</li></a>
+          <a href="./22.12.5.html"><li>22.12.5</li></a>
+          <a href="./22.12.7.html"><li>22.12.7</li></a>
+          <a href="./22.12.8.html"><li>22.12.8</li></a>
+          <a href="./22.12.11.html"><li>22.12.11</li></a>
+          <a href="./ì‚¬ì§€ë°©_ì ê²€.html"><li><strong>ì‚¬ì§€ë°© ì ê²€</strong></li></a>
+          <a href="./22.12.25.html"><li>22.12.25</li></a>
+          <a href="./22.12.26.html"><li>22.12.26</li></a>
+        </ul>
+          <a href="../2.html"><h2><li>ì§„ë¡œ íƒìƒ‰</li></h2></a>
+          <a href="../3.html"><h2><li>ìƒí™œì½”ë”© ì‹œì‘</li></h2></a>
+      </ol>
+      <div>
+        <ul>
+          <li>Reference and shadowing			- <span style="color:#0000ff;"><i>let country = "ëŒ€í•œë¯¼êµ­";</i></span> | <span style="color:#0000ff;"><i>let country_ref = &country;</i></span> â˜ì•ˆ ì‚¬ë¼ì§ , <span style="color:#0000ff;"><i>let country = 8;</i></span> â˜ì‚¬ë¼ì§</li> 
+          <li>References in functions			- <span style="color:#0000ff;"><i>fn print_country(country_name:</i></span><u style="color:#ff0000;"><span style="color:#0000ff;"><i>&String</i></span></u><span style="color:#0000ff;"><i>)</i></span> (<i>country_name:String</i> <span style="color:#ff0000;">(X)</span>)</li>
+          <li>Mutable references and mut in fuctions	- <span style="color:#cfcfcf;">ë‚´ìš©ì—†ìŒ</span></li>
+          <li>Copy and clone				- i32ëŠ” <strong>copy</strong>ê°€ëŠ¥!!<span style="color:#0000ff;">(ê°„ë‹¨í•˜ê¸° ë•Œë¬¸)</span> | <strong>.clone()</strong><span style="color:#0000ff;">â˜ë¨¼ì € ì“°ê³  ë‚˜ì¤‘ì— ë°”ê¿ˆ</span></li>
+          <li>Uninitialized variables and for loops	- ì •ì˜ë˜ì§€ ì•Šì€ ë³€ìˆ˜<span style="color:#ff0000;">â˜rustì ì´ì§€ ì•ŠìŒ!!</span></li>
+        </ul>
+      </div>
+    </div>
+  </body>
 </html>

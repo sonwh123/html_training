@@ -1,32 +1,37 @@
-<!doctype html>
+ï»¿<!doctype html>
 <html>
-<head>
-<title>À¥»çÀÌÆ® ¸¸µé±â ½Ç½À</title>
-<!--meta charset="utf-8"-->
-</head>
-<body>
-<a href="../index.html"><h1>±º»ıÈ° <span style="font-size:15px; color:#0000ff;">ver.»çÁö¹æ</span></h1></a>
-<ol>
-  <a href="../1.html"><h2><li>Easy Rust <span style="font-size:10px; color:#0000ff;">Korean</span></li></h2></a>
-<ul>
-  <a href="./22.12.4.html"><li>22.12.4</li></a>
-  <a href="./22.12.5.html"><li>22.12.5</li></a>
-  <a href="./22.12.7.html"><li>22.12.7</li></a>
-<ul>
-  <li>Funtctions, code blocks	- let multipled_by_ten = {let ¡¤¡¤¡¤; 30<span style="color:#0000ff;"><sub>¢Ñreturn °ª</sub></span>};</li>
-  <li>Mutability and shadowing	- <span style="color:#ff0000;">'rust´Â ±âº»ÀûÀ¸·Î immutable'</span>, <strong>shadowing</strong> - °°Àº ÀÌ¸§À» ´Ù½Ã ¾²´Â °Í(¸¶Áö¸·¸¸ ÀÎ½Ä)</li>
-  <li>Memory + references	- <strong>Stack</strong><span style="color:#ff0000;"><sub>ºü¸£´Ù, µ¥ÀÌÅÍÀÇ Å©±â¸¦ ¾Ë ¶§</sub></span>, <strong>heap</strong><span style="color:#ff0000;"><sub>ºñ±³Àû ´À¸®´Ù, µ¥ÀÌÅÍÀÇ Å©±â¸¦ ¸ğ¸¦ ¶§</sub></span>, <strong>pointers</strong>(reference) <span style="color:#0000ff;"><i>let my_number = 15; -> i32</i></span> | <span style="color:#0000ff;"><i>let single_reference = &my_number; -> &i32</i></span> | <span style="color:#0000ff;"><i>let double_reference = &single_reference; -> &&i32</i></span></li>
-  <li>Fancy printing		- <span style="color:#0000ff;"><i>print(<strong>r#</strong>"\n\t"<strong>#</strong>);//raw text</i></span> | {:?}, {:p}, {:X}, {:b}</li>
-  <li>Strinf and &str		- <span style="color:#0000ff;"><i>let my_name = "David".to_string();</i></span> | <span style="color:#0000ff;"><i>let my_name = Sting::from("David2");</i></span> | <strong>String</strong>¢Ñheap <strong>&str</strong>¢Ñstack</li>
-</ul>
-  <a href="./22.12.8.html"><li>22.12.8</li></a>
-  <a href="./22.12.11.html"><li>22.12.11</li></a>
-  <a href="./»çÁö¹æ_Á¡°Ë.html"><strong>»çÁö¹æ Á¡°Ë</strong></a>
-  <a href="./22.12.25.html"><li>22.12.25</li></a>
-  <a href="./22.12.26.html"><li>22.12.26</li></a>
-</ul>
-  <a href="../2.html"><h2><li>Áø·Î Å½»ö</li></h2></a>
-  <a href="../3.html"><h2><li>»ıÈ°ÄÚµù ½ÃÀÛ</li></h2></a>
-</ol>
-</body>
+  <head>
+    <title>ì›¹ì‚¬ì´íŠ¸ ë§Œë“¤ê¸° ì‹¤ìŠµ</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../style.css">
+  </head>
+  <body>
+    <a href="../index.html"><h1>êµ°ìƒí™œ <span style="font-size:15px; color:#0000ff;">IN.ì‚¬ì§€ë°©</span></h1></a>
+    <div id="grid">
+      <ol>
+        <a href="../index.html"><h2><li>Easy Rust <span style="font-size:10px; color:#0000ff;">Korean</span></li></h2></a>
+        <ul>
+          <a href="./22.12.4.html"><li>22.12.4</li></a>
+          <a href="./22.12.5.html"><li>22.12.5</li></a>
+          <a href="./22.12.7.html"><li>22.12.7</li></a>
+          <a href="./22.12.8.html"><li>22.12.8</li></a>
+          <a href="./22.12.11.html"><li>22.12.11</li></a>
+          <a href="./ì‚¬ì§€ë°©_ì ê²€.html"><li><strong>ì‚¬ì§€ë°© ì ê²€</strong></li></a>
+          <a href="./22.12.25.html"><li>22.12.25</li></a>
+          <a href="./22.12.26.html"><li>22.12.26</li></a>
+        </ul>
+          <a href="../2.html"><h2><li>ì§„ë¡œ íƒìƒ‰</li></h2></a>
+          <a href="../3.html"><h2><li>ìƒí™œì½”ë”© ì‹œì‘</li></h2></a>
+      </ol>
+      <div>
+        <ul>
+          <li>Funtctions, code blocks	- let multipled_by_ten = {let Â·Â·Â·; 30<span style="color:#0000ff;"><sub>â˜return ê°’</sub></span>};</li>
+          <li>Mutability and shadowing	- <span style="color:#ff0000;">'rustëŠ” ê¸°ë³¸ì ìœ¼ë¡œ immutable'</span>, <strong>shadowing</strong> - ê°™ì€ ì´ë¦„ì„ ë‹¤ì‹œ ì“°ëŠ” ê²ƒ(ë§ˆì§€ë§‰ë§Œ ì¸ì‹)</li>
+          <li>Memory + references	- <strong>Stack</strong><span style="color:#ff0000;"><sub>ë¹ ë¥´ë‹¤, ë°ì´í„°ì˜ í¬ê¸°ë¥¼ ì•Œ ë•Œ</sub></span>, <strong>heap</strong><span style="color:#ff0000;"><sub>ë¹„êµì  ëŠë¦¬ë‹¤, ë°ì´í„°ì˜ í¬ê¸°ë¥¼ ëª¨ë¥¼ ë•Œ</sub></span>, <strong>pointers</strong>(reference) <span style="color:#0000ff;"><i>let my_number = 15; -> i32</i></span> | <span style="color:#0000ff;"><i>let single_reference = &my_number; -> &i32</i></span> | <span style="color:#0000ff;"><i>let double_reference = &single_reference; -> &&i32</i></span></li>
+          <li>Fancy printing		- <span style="color:#0000ff;"><i>print(<strong>r#</strong>"\n\t"<strong>#</strong>);//raw text</i></span> | {:?}, {:p}, {:X}, {:b}</li>
+          <li>Strinf and &str		- <span style="color:#0000ff;"><i>let my_name = "David".to_string();</i></span> | <span style="color:#0000ff;"><i>let my_name = Sting::from("David2");</i></span> | <strong>String</strong>â˜heap <strong>&str</strong>â˜stack</li>
+        </ul>
+      </div>
+    </div>
+  </body>
 </html>
