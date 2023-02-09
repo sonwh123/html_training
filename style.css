@@ -23,6 +23,12 @@
  .blue {
    color : blue;
  }
+ .red {
+   color : red;
+ }
+ .null {
+   color : #cfcfcf;
+ }
  #grid {
    display : grid;
    grid-template-columns : 185px 1fr;
@@ -38,5 +44,9 @@
    padding-top : 5px;
  }
  #select {
-   
+   background-color : #bfbfbf;
+ }
+ #body ul{
+ padding-left : 25px;
+ 
  }

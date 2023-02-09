@@ -6,13 +6,13 @@
     <link rel="stylesheet" href="../style.css">
   </head>
   <body>
-    <a href="../index.html"><h1>군생활 <span style="font-size:15px; color:#0000ff;">IN.사지방</span></h1></a>
+    <a href="../index.html"><h1>군생활 <span style="font-size:15px" class="blue">IN.사지방</span></h1></a>
     <div id="grid">
       <ol>
-        <a href="../index.html"><h2><li>Easy Rust <span style="font-size:10px; color:#0000ff;">Korean</span></li></h2></a>
+        <a href="../index.html"><h2><li>Easy Rust <span style="font-size:10px" class="blue">Korean</span></li></h2></a>
         <ul>
           <a href="./22.12.4.html"><li>22.12.4</li></a>
-          <a href="./22.12.5.html"><li>22.12.5</li></a>
+          <a href="./22.12.5.html"><li id="select">22.12.5</li></a>
           <a href="./22.12.7.html"><li>22.12.7</li></a>
           <a href="./22.12.8.html"><li>22.12.8</li></a>
           <a href="./22.12.11.html"><li>22.12.11</li></a>
@@ -23,12 +23,12 @@
           <a href="../2.html"><h2><li>진로 탐색</li></h2></a>
           <a href="../3.html"><h2><li>생활코딩 시작</li></h2></a>
       </ol>
-      <div>
+      <div id="body">
         <ul>
-          <li>Floats			- <i>let my_number: u8 = 9;</i> , <i>let my_number = 9_u8;<sub><span style="color:#0000ff;">('_'는 컴파일러 인식X)</span></sub></i> , <i>let my_number = 9.;<sub><span style="color:#0000ff;">->f64</span></sub></i></li>
-          <li>Println!			- '!'(매크로<sub><span style="color:#0000ff;">macro</span></sub>) | { }<sub><span style="color:#0000ff;">☞파이썬 format 느낌</span></sub> | 'fn' - function <span style="color:#0000ff;"><i>fn number() -> i32{8}</i></span></li>
-          <li>Println!2			- <span style="color:#0000ff;"><i>("{0}{1}{2}{0}", a, b, c);</i></span> | <span style="color:#0000ff;"><i>("{a_}{b_}{c_}", a_=a, b_=b, c_=c);</i></span> | <span style="color:#0000ff;"><i>("{a}{b}{c}");</i></span></li>
-          <li>Semicolon, unit type	- ( )<span style="color:#0000ff;">☞empty tuple. unit type(void)</span> | <strong>;</strong>은 empty이 나온다. <span style="color:#0000ff;"><i>return 8;☞void</span></i> | ("{}", tuple<span style="color:#0000ff"><sub>empty type(void)</sub></span>) <span style="color:#ff0000">(X)</span>, ("{:?}", tuple) <span style="color:#ff0000">(O)</span></li>
+          <li>Floats			- <i>let my_number: u8 = 9;</i> , <i>let my_number = 9_u8;<sub><span class="blue">('_'는 컴파일러 인식X)</span></sub></i> , <i>let my_number = 9.;<sub><span class="blue">->f64</span></sub></i></li>
+          <li>Println!			- '!'(매크로<sub><span class="blue">macro</span></sub>) | { }<sub><span class="blue">☞파이썬 format 느낌</span></sub> | 'fn' - function <span class="blue"><i>fn number() -> i32{8}</i></span></li>
+          <li>Println!2			- <span class="blue"><i>("{0}{1}{2}{0}", a, b, c);</i></span> | <span class="blue"><i>("{a_}{b_}{c_}", a_=a, b_=b, c_=c);</i></span> | <span class="blue"><i>("{a}{b}{c}");</i></span></li>
+          <li>Semicolon, unit type	- ( )<span class="blue">☞empty tuple. unit type(void)</span> | <strong>;</strong>은 empty이 나온다. <span class="blue"><i>return 8;☞void</span></i> | ("{}", tuple<span class="blue"><sub>empty type(void)</sub></span>) <span class="red">(X)</span>, ("{:?}", tuple) <span class="red">(O)</span></li>
         </ul>
       </div>
     </div>
